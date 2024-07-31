@@ -1,15 +1,25 @@
-# eslint-config
+# ESLint config
 
-To install dependencies:
+## Whats included?
 
-```bash
-bun install
+- Standard config base;
+- Typescript eslint;
+- Prettier;
+
+## Setup
+
+### Node.js
+
+Install dependencies:
+
+```
+npm i -D eslint @dudubernardino/eslint-config
 ```
 
-To run:
+Inside `.eslintrc.json`
 
-```bash
-bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.1.20. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+{
+  "extends": "@dudubernardino/eslint-config/node"
+}
+```
